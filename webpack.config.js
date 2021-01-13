@@ -34,10 +34,7 @@ module.exports = {
       patterns: [
         {
           from: '**/*',
-          context: 'public/',
-          globOptions: {
-            ignore: ['index.html', 'README.md']
-          }
+          context: 'public/'
         }
       ]
     }),
