@@ -22,6 +22,13 @@
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.13.0",
-    "webpack-cli": "^4.3.1"
+    "webpack-cli": "^4.3.1",
+    "workbox-precaching": "^6.0.2",
+    "workbox-routing": "^6.0.2",
+    "workbox-webpack-plugin": "^6.0.2",
+    "workbox-window": "^6.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
   }
 }

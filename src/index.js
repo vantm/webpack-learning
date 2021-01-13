@@ -1,17 +1,19 @@
-import "index.css";
-import "app.scss";
+import 'index.scss';
+import registerServiceWorker from 'registerServiceWorker';
 
 function component() {
-  const box = document.createElement("div");
-  const title = document.createElement("div");
+  const box = document.createElement('div');
+  const title = document.createElement('div');
 
-  title.innerHTML = "Hello Webpack!";
-  title.classList.add("title");
+  title.innerHTML = 'Hello Webpack!';
+  title.classList.add('title');
 
-  box.classList.add("box");
+  box.classList.add('box');
   box.appendChild(title);
 
   return box;
 }
 
-document.getElementById("app").appendChild(component());
+document.getElementById('app').appendChild(component());
+
+registerServiceWorker();

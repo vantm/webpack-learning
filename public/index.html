@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link
+      rel="manifest"
+      href="<%= htmlWebpackPlugin.options.publicPath %>site.webmanifest"
+    />
+    <link
+      rel="shortcut icon"
+      href="<%= htmlWebpackPlugin.options.publicPath %>favicon.ico"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <div id="app"></div>

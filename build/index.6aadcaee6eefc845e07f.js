@@ -1,2 +1,0 @@
-(()=>{"use strict";document.getElementById("app").appendChild(function(){const e=document.createElement("div"),t=document.createElement("div");return t.innerHTML="Hello Webpack!",t.classList.add("title"),e.classList.add("box"),e.appendChild(t),e}())})();
-//# sourceMappingURL=index.6aadcaee6eefc845e07f.js.map
