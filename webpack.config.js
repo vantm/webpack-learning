@@ -34,7 +34,10 @@ module.exports = {
       patterns: [
         {
           from: '**/*',
-          context: 'public/'
+          context: 'public/',
+          globOptions: {
+            ignore: ['index.html']
+          }
         }
       ]
     }),
