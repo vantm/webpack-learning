@@ -133,3 +133,5 @@ sketch
 *.scss.map
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react,sass
+
+build
